@@ -1,17 +1,21 @@
 {
     "name": "open-fitter-tools",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "description": "Tools for OpenFitter development",
     "scripts": {
         "check-l10n": "tsx scripts/l10n-validator.ts",
-        "create-package": "tsx scripts/create-unitypackage.ts"
+        "create-package": "tsx scripts/create-unitypackage.ts",
+        "docs:dev": "vitepress dev docs",
+        "docs:build": "vitepress build docs",
+        "docs:preview": "vitepress preview docs"
     },
     "devDependencies": {
         "@types/node": "^20.0.0",
         "@types/tar": "^6.1.13",
         "tar": "^7.5.2",
         "tsx": "^4.0.0",
-        "typescript": "^5.0.0"
+        "typescript": "^5.0.0",
+        "vitepress": "^1.0.0"
     },
     "private": true
 }

@@ -100,3 +100,6 @@ InitTestScene*.unity*
 /Assets
 !/Assets/OpenFitter
 !/Assets/OpenFitter.meta
+
+/docs/.vitepress
+/docs/.vitepress/config.mts
