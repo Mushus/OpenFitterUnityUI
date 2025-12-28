@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/OpenFitter/Editor/Views/OpenFitterWindow.uss?fileID=7433441132597879392&amp;guid=7f5e62cfbff8e0849ae10816af954e34&amp;type=3#OpenFitterWindow" />
+    <ui:VisualElement name="wizard-container" style="flex-grow: 1; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0;">
+        <ui:VisualElement name="step-indicator-section" class="section-box" style="margin-bottom: 0; margin-top: 0; margin-right: 0; margin-left: 0; padding-top: 16px; padding-right: 16px; padding-bottom: 16px; padding-left: 16px; border-top-width: 0; border-right-width: 0; border-left-width: 0; border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; flex-shrink: 0;">
+            <ui:VisualElement name="step-indicators" style="flex-direction: row; justify-content: center; align-items: flex-start; margin-bottom: 16px;" />
+            <ui:Label name="lbl-step-title" text="Step 1: 環境セットアップ" style="font-size: 14px; -unity-font-style: bold; -unity-text-align: middle-center;" />
+        </ui:VisualElement>
+        <ui:ScrollView name="step-content-scroll" style="flex-grow: 1; margin-bottom: 0; margin-top: 0; margin-right: 0; margin-left: 0;">
+            <ui:VisualElement name="step-content-container" style="flex-grow: 1; padding-bottom: 16px; padding-top: 16px; padding-left: 16px; padding-right: 16px;" />
+        </ui:ScrollView>
+        <ui:VisualElement name="VisualElement" style="flex-direction: row; justify-content: space-between; padding-top: 0; padding-bottom: 0; padding-right: 0; padding-left: 0; margin-top: 16px; margin-right: 16px; margin-bottom: 16px; margin-left: 16px; flex-shrink: 0;">
+            <ui:Button name="btn-back" text="&lt; 戻る" style="width: 120px; height: 32px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+            <ui:VisualElement style="flex-grow: 1;" />
+            <ui:Button name="btn-next" text="次へ &gt;" style="width: 120px; height: 32px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/OpenFitter/Editor/Views/OpenFitterWindow.uss?fileID=7433441132597879392&amp;guid=7f5e62cfbff8e0849ae10816af954e34&amp;type=3#OpenFitterWindow" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:VisualElement class="execution-header" style="margin-top: 0; margin-right: 0; margin-bottom: 16px; margin-left: 0; flex-shrink: 0;">
+            <ui:Label text="フィッティング実行状況" style="-unity-font-style: bold; font-size: 16px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+            <ui:Label name="lbl-status-badge" text="準備中" class="status-badge" />
+        </ui:VisualElement>
+        <ui:Label name="lbl-status" text="Status: -" style="margin-bottom: 4px; color: rgb(136, 136, 136); font-size: 11px; margin-top: 0; margin-right: 0; margin-left: 0;" />
+        <ui:ProgressBar name="progress-bar" value="0" high-value="100" style="margin-top: 0; margin-right: 0; margin-bottom: 12px; margin-left: 0;" />
+        <ui:ScrollView name="log-scroll-view" class="log-area" style="height: 350px;">
+            <ui:TextField name="lbl-log" multiline="true" readonly="true" class="log-text" />
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

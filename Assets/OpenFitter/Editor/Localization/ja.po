@@ -1,0 +1,393 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "OpenFitter"
+msgstr "OpenFitter"
+
+msgid "Execute Retargeting"
+msgstr "リターゲティング実行"
+
+msgid "Fitting"
+msgstr "フィッティング"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Execute Fitting"
+msgstr "フィッティング実行"
+
+msgid "Environment Settings"
+msgstr "環境設定"
+
+msgid "Environment Setup"
+msgstr "環境構築"
+
+msgid "Setup Steps"
+msgstr "セットアップ手順"
+
+msgid "Check each step from top to bottom to build the environment."
+msgstr "上から順に確認していくことで環境が構築されます。"
+
+msgid "Downloading..."
+msgstr "ダウンロード中..."
+
+msgid "Installed"
+msgstr "インストール済み"
+
+msgid "Not installed"
+msgstr "未インストール"
+
+msgid "OpenFitter Core Script"
+msgstr "OpenFitter Coreスクリプト"
+
+msgid "Configuration Selection"
+msgstr "設定選択"
+
+msgid "Select source and target configurations.\nIf both are not 'template', it will perform A -> template -> B conversion."
+msgstr "変換元と変換先の設定を選択してください。\n両方が'template'でない場合、A -> template -> Bの変換を行います。"
+
+msgid "No configurations found."
+msgstr "設定が見つかりませんでした。"
+
+msgid "Rescan Available Configurations"
+msgstr "利用可能な設定を再スキャン"
+
+msgid "Configuration"
+msgstr "設定"
+
+msgid "Selected configuration details:"
+msgstr "選択された設定の詳細:"
+
+msgid "No configurations found. Click Rescan."
+msgstr "設定が見つかりません。再スキャンをクリックしてください。"
+
+msgid "Outfit to Convert"
+msgstr "変換対象の衣装"
+
+msgid "Outfit Souce FBX"
+msgstr "衣装 FBX"
+
+msgid "FBX File"
+msgstr "FBXファイル"
+
+msgid "Select File"
+msgstr "参照"
+
+msgid "Select Outfit FBX"
+msgstr "衣装FBXを選択"
+
+msgid "Base Blend File"
+msgstr "ベースBlendファイル"
+
+msgid "Blend Shape Options"
+msgstr "ブレンドシェイプオプション"
+
+msgid "Configure blend shapes used by the clothing to retarget.\nNote: If hybrid blend shapes are enabled, set values to 100 or less."
+msgstr "リターゲティングに使用するブレンドシェイプを設定します。\n注: ハイブリッドブレンドシェイプが有効な場合、値を100以下に設定してください。"
+
+msgid "Custom Name"
+msgstr "カスタム名"
+
+msgid "Value"
+msgstr "値"
+
+msgid "Add Blend Shape"
+msgstr "ブレンドシェイプ追加"
+
+msgid "Advanced Settings"
+msgstr "詳細設定"
+
+msgid "Mesh Processing"
+msgstr "メッシュ処理"
+
+msgid "Disable Subdivision"
+msgstr "サブディビジョン無効化"
+
+msgid "Disable Triangulation (preserve quads)"
+msgstr "三角形化無効化（四角形ポリゴン維持）"
+
+msgid "Browse"
+msgstr "参照"
+
+msgid "Project"
+msgstr "プロジェクト"
+
+msgid "Blender Executable"
+msgstr "Blender実行ファイル"
+
+msgid "Detect"
+msgstr "検出"
+
+msgid "Blender Detection"
+msgstr "Blender検出"
+
+msgid "Not found in default locations."
+msgstr "デフォルトの場所に見つかりませんでした。"
+
+msgid "Blender Download"
+msgstr "Blenderダウンロード"
+
+msgid "Version"
+msgstr "バージョン"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Generate"
+msgstr "生成"
+
+msgid "Destination Folder"
+msgstr "保存先フォルダ"
+
+msgid "Download"
+msgstr "ダウンロード"
+
+msgid "Download Blender"
+msgstr "Blenderをダウンロード"
+
+msgid "Blender"
+msgstr "Blender"
+
+msgid "Python Packages"
+msgstr "Pythonパッケージ"
+
+msgid "Download Python Packages"
+msgstr "Pythonパッケージをダウンロード"
+
+msgid "Blender Addon"
+msgstr "Blenderアドオン"
+
+msgid "Download Blender Addon"
+msgstr "Blenderアドオンをダウンロード"
+
+msgid "OpenFitter Core"
+msgstr "OpenFitter Core"
+
+msgid "Download OpenFitter Core"
+msgstr "OpenFitter Coreをダウンロード"
+
+msgid "OpenFitter Core Download"
+msgstr "OpenFitter Coreダウンロード"
+
+msgid "NumPy Download"
+msgstr "NumPyダウンロード"
+
+msgid "Download NumPy"
+msgstr "NumPyをダウンロード"
+
+msgid "SciPy Download"
+msgstr "ScilPyダウンロード"
+
+msgid "Download SciPy"
+msgstr "ScilPyをダウンロード"
+
+msgid "Are you sure you want to download Blender?\n(This will download approximately 300MB)"
+msgstr "Blenderをダウンロードしてよろしいですか？\n(約300MBのダウンロードが発生します)"
+
+msgid "Please download Blender first."
+msgstr "先にBlenderをダウンロードしてください。"
+
+msgid "Please download Python packages first."
+msgstr "先にPythonパッケージをダウンロードしてください。"
+
+msgid "Please download the Blender addon first."
+msgstr "先にBlenderアドオンをダウンロードしてください。"
+
+msgid "Please download OpenFitter Core first."
+msgstr "先にOpenFitter Coreをダウンロードしてください。"
+
+msgid "Download Python packages (scipy, numpy)?\n\nPackages will be installed to:\n- BlenderTools/python_packages"
+msgstr "Pythonパッケージ（scipy, numpy）をダウンロードしますか？\n\nインストール先:\n- BlenderTools/python_packages"
+
+msgid "Download Blender addon (robust-weight-transfer)?\n\nAddon will be installed to:\n- Blender/scripts/addons"
+msgstr "Blenderアドオン（robust-weight-transfer）をダウンロードしますか？\n\nインストール先:\n- Blender/scripts/addons"
+
+msgid "Download complete. Check console for details."
+msgstr "ダウンロード完了。詳細はコンソールを確認してください。"
+
+msgid "Download OpenFitter Core from GitHub?\n\nThis will download a ZIP file and extract it to:\n- BlenderTools/open-fitter-core-v0.4.0-alpha"
+msgstr "GitHubからOpenFitter Coreをダウンロードしますか？\n\nZIPをダウンロードし、以下に展開します:\n- BlenderTools/open-fitter-core-v0.4.0-alpha"
+
+msgid "Script not found after extraction."
+msgstr "展開後にスクリプトが見つかりませんでした。"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "Official Page"
+msgstr "公式ページ"
+
+msgid "Project JSON"
+msgstr "プロジェクトJSON"
+
+msgid "Rescan"
+msgstr "再スキャン"
+
+msgid "Not scanned"
+msgstr "未スキャン"
+
+msgid "JSON Search"
+msgstr "JSON検索"
+
+msgid "No JSON found under Assets."
+msgstr "Assets以下にJSONが見つかりませんでした。"
+
+msgid "Download is in progress. Please wait for it to finish."
+msgstr "ダウンロード中です。完了までお待ちください。"
+
+msgid "URL is empty."
+msgstr "URLが空です。"
+
+msgid "Please specify a valid destination folder."
+msgstr "有効な保存先フォルダを指定してください。"
+
+msgid "Unknown error"
+msgstr "不明なエラー"
+
+msgid "-- Select Configuration --"
+msgstr "-- 設定を選択 --"
+
+msgid "Not run"
+msgstr "未実行"
+
+msgid "Failed to start process."
+msgstr "プロセスの開始に失敗しました。"
+
+msgid "Completed: ExitCode 0"
+msgstr "完了: 終了コード 0"
+
+msgid "Found {0} valid config files"
+msgstr "{0} 個の有効な設定ファイルが見つかりました"
+
+msgid "{0} -> {1}"
+msgstr "{0} -> {1}"
+
+msgid "Applied config: {0}"
+msgstr "設定を適用: {0}"
+
+msgid "Created output directory: {0}"
+msgstr "出力ディレクトリを作成: {0}"
+
+msgid "[OpenFitter] {0}\n{1}"
+msgstr "[OpenFitter] {0}\n{1}"
+
+msgid "Error: {0}"
+msgstr "エラー: {0}"
+
+msgid "Exit code {0}"
+msgstr "終了コード {0}"
+
+msgid "Failed to start: {0}"
+msgstr "開始失敗: {0}"
+
+msgid "Failed: {0}"
+msgstr "失敗: {0}"
+
+msgid "Saved: {0}"
+msgstr "保存完了: {0}"
+
+msgid "Extraction failed: {0}"
+msgstr "解凍失敗: {0}"
+
+msgid "Status: {0}"
+msgstr "ステータス: {0}"
+
+msgid "{0} items"
+msgstr "{0} 個の項目"
+
+msgid "Environment setup is not complete. Please go to the 'Settings' tab to complete the setup."
+msgstr "環境構築が完了していません。「設定」タブに移動してセットアップを完了してください。"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Next"
+msgstr "次へ >"
+
+msgid "Execute"
+msgstr "実行"
+
+msgid "To Completion"
+msgstr "完了画面へ"
+
+msgid "Continue Work"
+msgstr "続けて作業する"
+
+msgid "Outfit Selection"
+msgstr "衣装の選択"
+
+msgid "Target Selection"
+msgstr "ターゲット選択"
+
+msgid "Body/Shape Adjustment"
+msgstr "体型・形状の調整"
+
+msgid "Execution"
+msgstr "実行"
+
+msgid "Completion"
+msgstr "完了"
+
+msgid "Processing..."
+msgstr "実行中..."
+
+msgid "Completed"
+msgstr "完了"
+
+msgid "Error"
+msgstr "エラー"
+
+msgid "Idle"
+msgstr "待機中"
+
+msgid "Select Outfit FBX File"
+msgstr "衣装FBXファイルを選択"
+
+msgid "Failed to start: "
+msgstr "開始失敗: "
+
+msgid "Download not started."
+msgstr "ダウンロードが開始されていません。"
+
+msgid "Addon download failed. "
+msgstr "アドオンのダウンロードに失敗しました。"
+
+msgid "Blender addon extracted successfully."
+msgstr "Blenderアドオンの解凍に成功しました。"
+
+msgid "Downloading..."
+msgstr "ダウンロード中..."
+
+msgid "Extraction failed: "
+msgstr "解凍失敗: "
+
+msgid "Download folder is invalid."
+msgstr "ダウンロードフォルダが無効です。"
+
+msgid "Blender download failed. "
+msgstr "Blenderのダウンロードに失敗しました。"
+
+msgid "Blender extraction failed. "
+msgstr "Blenderの解凍に失敗しました。"
+
+msgid "Core download failed. "
+msgstr "Coreのダウンロードに失敗しました。"
+
+msgid "Blender path is not set."
+msgstr "Blenderのパスが設定されていません。"
+
+msgid "Blender path is not set or invalid."
+msgstr "Blenderのパスが設定されていないか無効です。"
+
+msgid "Blender Addon Download"
+msgstr "Blenderアドオンのダウンロード"
+
+msgid "Blender Addon Installation"
+msgstr "Blenderアドオンのインストール"
+
+msgid "Addon has not been downloaded yet."
+msgstr "アドオンがまだダウンロードされていません。"
+
+msgid "Installation failed: {0}"
+msgstr "インストール失敗: {0}"

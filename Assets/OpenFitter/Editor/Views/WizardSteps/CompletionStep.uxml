@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/OpenFitter/Editor/Views/OpenFitterWindow.uss?fileID=7433441132597879392&amp;guid=7f5e62cfbff8e0849ae10816af954e34&amp;type=3#OpenFitterWindow" />
+    
+    <ui:VisualElement style="flex-grow: 1; align-items: center; justify-content: center; padding: 20px;">
+        <ui:VisualElement style="align-items: center; margin-bottom: 30px;">
+            <ui:Label text="✔" style="font-size: 60px; color: #4CAF50; -unity-font-style: bold;" />
+            <ui:Label text="変換が完了しました！" style="font-size: 20px; -unity-font-style: bold; margin-top: 10px;" />
+        </ui:VisualElement>
+
+        <ui:VisualElement class="section-box" style="width: 100%; padding: 15px; margin-bottom: 20px;">
+            <ui:Label text="出力ファイル:" style="-unity-font-style: bold; margin-bottom: 5px;" />
+            <ui:Label name="lbl-output-path" text="Assets/Output/Result.fbx" style="white-space: normal; color: #CCCCCC; font-size: 11px;" />
+        </ui:VisualElement>
+
+        <ui:Button name="btn-view-result" text="参照 (ファイルをハイライト)" class="primary-button" style="width: 200px; height: 40px; font-size: 14px;" />
+        
+        <ui:Label text="※ 変換されたFBXファイルをプロジェクトウィンドウで選択します。" style="margin-top: 10px; font-size: 10px; color: #888888;" />
+    </ui:VisualElement>
+</ui:UXML>

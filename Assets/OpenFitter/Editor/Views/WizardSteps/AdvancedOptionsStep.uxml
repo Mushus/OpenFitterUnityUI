@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/OpenFitter/Editor/Views/OpenFitterWindow.uss" />
+
+    <ui:Label text="設定を確認し、必要に応じて詳細オプションを調整してください。"
+              style="margin-bottom: 10px;" />
+
+    <ui:VisualElement class="section-box">
+        <ui:Label text="詳細オプション"
+                  style="-unity-font-style: bold; margin-bottom: 5px;" />
+        
+        <ui:Toggle name="toggle-subdiv" binding-path="subdivide" text="ポリゴンを細分化する" />
+        <ui:Label text="頂点数を増やして変形を滑らかにします。ローポリ衣装や胸のサイズ調整時に有効です。" class="hint-text" />
+        
+        <ui:Toggle name="toggle-triangulate" binding-path="triangulate" text="ポリゴンを三角形化" />
+        <ui:Label text="メッシュを三角形に分割し、Unityでの表示を安定させます。後で再編集する場合はオフを推奨。" class="hint-text" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,39 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/OpenFitter/Editor/Views/OpenFitterWindow.uss?fileID=7433441132597879392&amp;guid=7f5e62cfbff8e0849ae10816af954e34&amp;type=3#OpenFitterWindow" />
+    <ui:VisualElement style="padding: 20px; background-color: rgba(30, 30, 30, 0.5);">
+        <ui:Label text="Wizard Step Parts Preview" style="font-size: 16px; -unity-font-style: bold; margin-bottom: 20px; color: white;" />
+        <ui:VisualElement style="flex-direction: row; align-items: center; margin-bottom: 20px;">
+            <ui:Label text="Arrow:" style="width: 120px; color: white;" />
+            <ui:VisualElement name="part-arrow" style="height: 32px; justify-content: center; align-items: center;">
+                <ui:Label text="&gt;" class="step-arrow" style="padding-bottom: 0; margin-bottom: 0; margin-top: 0; -unity-text-align: middle-center;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row; align-items: center; margin-bottom: 15px;">
+            <ui:Label text="Completed:" style="width: 120px; color: white;" />
+            <ui:VisualElement class="step-indicator">
+                <ui:VisualElement class="step-circle step-completed" style="margin-bottom: 4px;">
+                    <ui:Label text="4" style="padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; align-items: center; justify-content: center; align-self: center;" />
+                </ui:VisualElement>
+                <ui:Label text="Completed Step" class="step-name" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row; align-items: center; margin-bottom: 15px;">
+            <ui:Label text="Current:" style="width: 120px; color: white;" />
+            <ui:VisualElement class="step-indicator">
+                <ui:VisualElement class="step-circle step-current" style="margin-bottom: 4px;">
+                    <ui:Label text="4" style="padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; align-items: center; justify-content: center; align-self: center;" />
+                </ui:VisualElement>
+                <ui:Label text="Current Step" class="step-name" style="-unity-font-style: normal;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row; align-items: center; margin-bottom: 15px;">
+            <ui:Label text="Default (Future):" style="width: 120px; color: white;" />
+            <ui:VisualElement name="part-indicator" class="step-indicator">
+                <ui:VisualElement name="step-circle" class="step-circle step-future" style="margin-bottom: 4px;">
+                    <ui:Label name="lbl-number" text="4" style="align-items: center; justify-content: center; align-self: center; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                </ui:VisualElement>
+                <ui:Label name="lbl-name" text="Future Step" class="step-name" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

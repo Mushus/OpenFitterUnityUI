@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/OpenFitter/Editor/Views/OpenFitterWindow.uss?fileID=7433441132597879392&amp;guid=7f5e62cfbff8e0849ae10816af954e34&amp;type=3#OpenFitterWindow" />
+    
+    <ui:VisualElement style="margin-bottom: 10px;">
+        <ui:Label text="服の形をアバターの体型に合わせる" style="-unity-font-style: bold; font-size: 14px; margin-bottom: 4px;" />
+        <ui:Label text="アバターの体型（胸の大きさや腰の太さなど）に合わせて、服の形を微調整するための設定です。" style="white-space: normal; color: rgb(180, 180, 180);" />
+        <ui:Label text="通常、ターゲット（アバター）を選択したときに自動的に最適な値が設定されます。基本的にはそのままで問題ありません。" style="white-space: normal; color: rgb(180, 180, 180); margin-top: 4px;" />
+    </ui:VisualElement>
+
+    <ui:VisualElement class="section-box" style="padding-top: 8px; padding-right: 8px; padding-bottom: 8px; padding-left: 8px;">
+        <ui:VisualElement style="flex-direction: row; border-bottom-width: 1px; border-bottom-color: rgb(80, 80, 80); margin-bottom: 4px; padding-bottom: 2px;">
+            <ui:Label text="有効" style="width: 20px; -unity-font-style: bold; font-size: 10px;" />
+            <ui:Label text="内部名" style="width: 100px; -unity-font-style: bold; font-size: 10px; margin-left: 4px;" />
+            <ui:Label text="ラベル名" style="width: 100px; -unity-font-style: bold; font-size: 10px; margin-left: 4px;" />
+            <ui:Label text="調整値 (0-100)" style="flex-grow: 1; -unity-font-style: bold; font-size: 10px; margin-left: 9px;" />
+        </ui:VisualElement>
+        
+        <ui:ScrollView show-horizontal-scroller="Hidden" style="max-height: 220px;">
+            <ui:VisualElement name="list-blendshapes" />
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>
+

@@ -1,0 +1,228 @@
+
+.header-label {
+    -unity-font-style: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.section-box {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-color: rgba(0, 0, 0, 0.3);
+    border-width: 1px;
+    border-radius: 3px;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.row {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.toolbar-button {
+    flex-grow: 1;
+    height: 25px;
+    -unity-text-align: middle-center;
+}
+
+.toolbar-button.selected {
+    background-color: #46607c;
+}
+
+.status-label {
+    font-size: 10px;
+    color: grey;
+}
+
+.status-label.not-ready {
+    color: #FF4444;
+}
+
+.status-label.downloading {
+    color: #888888;
+}
+
+.status-label.ready {
+    color: #44CC44;
+}
+
+/* Wizard step indicators */
+.step-indicator {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.step-circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    border-width: 2px;
+    border-color: #9E9E9E; /* Default visibility */
+}
+
+.step-circle Label {
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+    font-size: 14px;
+    color: white;
+}
+
+.step-completed {
+    background-color: #4CAF50;
+    border-width: 0;
+}
+
+.step-current {
+    background-color: #2196F3;
+    border-width: 0;
+}
+
+.step-future {
+    background-color: transparent;
+    border-width: 2px;
+    border-color: #9E9E9E;
+}
+
+.step-future Label {
+    color: #9E9E9E;
+}
+
+.step-name {
+    font-size: 10px;
+    -unity-text-align: middle-center;
+    max-width: 80px;
+    white-space: normal;
+}
+
+.step-arrow {
+    font-size: 16px;
+    margin: 0 5px;
+    -unity-text-align: middle-center;
+    padding-bottom: 20px;
+}
+
+.log-area {
+    background-color: #1a1a1a;
+    border-color: #333333;
+    border-width: 1px;
+    border-radius: 4px;
+    margin-top: 15px;
+    flex-grow: 1;
+}
+
+.log-text {
+    background-color: transparent;
+    border-width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.log-text .unity-text-field__input {
+    background-color: transparent;
+    color: #e0e0e0;
+    border-width: 0;
+    padding: 8px;
+    margin: 0;
+    cursor: text;
+    white-space: pre-wrap;
+}
+
+.execution-header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.status-badge {
+    padding: 4px 12px;
+    border-radius: 12px;
+    background-color: #333333;
+    color: white;
+    font-size: 11px;
+    -unity-font-style: bold;
+}
+
+.status-badge.processing {
+    background-color: #2196F3;
+}
+
+.status-badge.completed {
+    background-color: #4CAF50;
+}
+
+.status-badge.failed {
+    background-color: #F44336;
+}
+
+/* Progress Bar styling */
+#progress-bar {
+    margin: 10px 0;
+    height: 12px;
+}
+
+#progress-bar .unity-progress-bar__container {
+    height: 12px;
+    min-height: 12px;
+}
+
+#progress-bar .unity-progress-bar__background {
+    background-color: #2a2a2a;
+    border-radius: 6px;
+    border-width: 0;
+}
+
+#progress-bar .unity-progress-bar__progress {
+    background-color: #2196F3;
+    border-radius: 6px;
+    margin: 0;
+}
+
+#progress-bar .unity-progress-bar__title-container {
+    justify-content: center;
+}
+
+#progress-bar .unity-progress-bar__title {
+    color: white;
+    font-size: 10px;
+}
+
+/* Ensure step content can fill available space */
+#step-content-scroll .unity-scroll-view__content-container {
+    flex-grow: 1;
+}
+
+#step-content-container {
+    flex-grow: 1;
+}
+
+.hint-text {
+    font-size: 11px;
+    color: #999999;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    white-space: normal;
+}
+
+
+.primary-button {
+    background-color: #4CAF50;
+    color: white;
+    border-width: 0;
+    border-radius: 4px;
+    -unity-font-style: bold;
+}
+
+.primary-button:hover {
+    background-color: #45a049;
+}
+
+.primary-button:active {
+    background-color: #3e8e41;
+}

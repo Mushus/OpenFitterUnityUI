@@ -1,0 +1,3 @@
+-nullable:enable
+-warnaserror:CS8600,CS8602,CS8625,CS8618,CS8604,CS8603,CS8619,CS8622,CS8762,CS8765,CS8714,CS8123
+-langversion:latest

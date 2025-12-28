@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/OpenFitter/Editor/Views/OpenFitterWindow.uss?fileID=7433441132597879392&amp;guid=7f5e62cfbff8e0849ae10816af954e34&amp;type=3#OpenFitterWindow" />
+
+    <ui:VisualElement style="flex-direction: column; flex-grow: 1;">
+        <ui:VisualElement name="wizard-host" style="flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>

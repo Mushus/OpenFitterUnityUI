@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/OpenFitter/Editor/Views/OpenFitterWindow.uss?fileID=7433441132597879392&amp;guid=7f5e62cfbff8e0849ae10816af954e34&amp;type=3#OpenFitterWindow" />
+    <ui:VisualElement style="flex-direction: row; margin-bottom: 16px;">
+        <ui:Button name="btn-download-all" text="自動セットアップ" enable-rich-text="false" class="primary-button" style="height: 40px; margin-right: 0; font-size: 12px; -unity-font-style: normal; margin-top: 0; margin-bottom: 0; margin-left: 0; flex-grow: 1;" />
+        <ui:Button name="btn-reset-environment" text="環境をリセット" style="height: 40px; width: 140px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="list-setup-steps" style="margin-top: 16px;" />
+</ui:UXML>

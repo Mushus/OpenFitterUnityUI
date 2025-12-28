@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement class="row" style="flex-direction: row; align-items: center; margin-bottom: 4px;">
+        <ui:Toggle name="toggle-enabled" tooltip="この項目の調整を有効にするか（チェックを外すと無視されます）" style="width: 16px; margin-left: 0; margin-top: 0; margin-right: 4px; margin-bottom: 0;" />
+        <ui:Label name="lbl-original-name" tooltip="データの内部名です（変更できません）" text="OriginalName" style="padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; width: 100px; -unity-font-style: bold; overflow: hidden; margin-left: 0; cursor: link; margin-top: 0; margin-right: 4px; margin-bottom: 0;" />
+        <ui:TextField name="field-custom-name" tooltip="画面に表示する名前です" value="CustomName" style="width: 100px; margin-left: 0; margin-top: 0; margin-right: 4px; margin-bottom: 0;" />
+        <ui:VisualElement style="flex-direction: row; align-items: center; margin-left: 5px; flex-grow: 1;">
+            <ui:Slider name="slider-value" tooltip="値を大きくすると、その形が強く適用されます" low-value="0" high-value="100" style="flex-grow: 1; flex-shrink: 1; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+            <uie:FloatField name="field-value" tooltip="0〜100の間で設定してください" style="width: 45px; margin-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
+
